@@ -20,24 +20,28 @@ Practiced investigating malicious PCAPs in wireshark
 
 ## Steps
 
-
+Opened wireshark with a Network Pcap file
 
 <img width="1920" height="1080" alt="VirtualBox_SOClab-Ubuntu_15_12_2025_20_45_30" src="https://github.com/user-attachments/assets/8e6bcec8-cf37-4c4d-9fde-1a891561da65" />
 
-
+Checked file datails like 
+How much time of traffic is recorded in this pcap?
+When the first packet and last packet captured?
+How many packets are captured and displayed?
 
 <img width="1920" height="1080" alt="VirtualBox_SOClab-Ubuntu_15_12_2025_20_45_56" src="https://github.com/user-attachments/assets/90feb573-90ac-4e60-a306-e6506dc0f4a8" />
 
-
+Checked for unencryted traffic http in display filter
+Is there any login happened?
 
 <img width="1920" height="1080" alt="VirtualBox_SOClab-Ubuntu_15_12_2025_20_48_29" src="https://github.com/user-attachments/assets/337fadba-ef12-461f-8359-e92294a94cfa" />
 
-
+Followed the http stream to know more information
 
 
 <img width="1920" height="1080" alt="VirtualBox_SOClab-Ubuntu_15_12_2025_20_52_09" src="https://github.com/user-attachments/assets/9904654e-fb6a-47b1-a051-6d4ffd5d0f25" />
 
-
+Checked how many http requests are made?
 
 <img width="1920" height="1080" alt="VirtualBox_SOClab-Ubuntu_15_12_2025_20_53_40" src="https://github.com/user-attachments/assets/714c52d4-6423-44fa-aa93-a25f024958f8" />
 
